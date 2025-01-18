@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+   <script>
+    'use strict';
+
+    // Replace 'Sok Dara' with your full name
+    console.log('Student Name: Lun Sochamnan ');
+
+    try {
+        let x = 10; 
+        console.log(x); 
+    } catch (error) {
+        console.error(error.message); 
+    }
+
+    function demo() {
+        try {
+            let y = 20; 
+            console.log(y); 
+        } catch (error) {
+            console.error(error.message); 
+        }
+    }
+
+    demo();
+
+    try {
+        eval("let z = 50; delete z;"); 
+        console.log(z); 
+    } catch (error) {
+        console.error(error.message); 
+    }
+   </script>
+</body>
+</html>
